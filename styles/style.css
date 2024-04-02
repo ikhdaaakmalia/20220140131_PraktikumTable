@@ -1,0 +1,56 @@
+body {                                                          /*ngatur bagian tampilanya */
+   height: 100vh;                                               /*mengatur halamanya jd 1 layar*/
+    margin: 0;
+    padding: 0;
+}
+
+.background-image{                                              /*ngatur bagian background gambarnya */
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container{
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    margin: auto;                                               /* auto buat jd ditengah(menyesuaikan)*/
+    padding: 0;
+    max-width: 500px;
+    animation: blink 1s infinite alternate;
+}
+
+table{                                                          /*keseluruhan tabel*/
+    display:ruby-base;
+    padding: 60px;
+    font-size: larger;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+
+button{                                                         /*ngatur buttonnya*/
+    background-color:rgba(240, 248, 255, 0.563);
+    border-radius: 20px;
+    border-color: rgba(240, 248, 255, 0);
+}
+
+th{                                                             /*bagian atas tabel*/
+    background-color:rgba(247, 255, 240, 0.252); 
+    border-radius: 20px;
+    padding: 10px;
+}
+
+td{                                                             /*bagian badan table*/
+    font-variant: small-caps;  
+    padding: 10px;
+    border-radius: 20px; 
+    background-color:rgba(240, 248, 255, 0.563);              /*ngatur warna*/
+}
+
+
+img{                                                            /*ngatur gambar yg ada di tabel*/
+    border-radius: 20px;                                        /*biar lebih melengkung*/
+    height: 300px;
+    width: 300px;
+}
